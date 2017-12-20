@@ -3,7 +3,7 @@ custom:
     vpapp:
       type: com.alibaba.druid.pool.DruidDataSource
       driver: com.mysql.jdbc.Driver
-      url: jdbc:mysql://192.168.32.30:3306/dmp_lc_offline?useSSL=false
+      url: jdbc:mysql://192.168.32.30:3306/dmp_vpapp_offline?useSSL=false
       username: root
       password: Ab*)126722
     manager:
