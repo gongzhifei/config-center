@@ -2,13 +2,13 @@ custom:
   datasource:
     vpapp:
       type: com.alibaba.druid.pool.DruidDataSource
-      driver: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://192.168.32.30:3306/dmp_vpapp_offline?useSSL=false
       username: root
       password: Ab*)126722
     manager:
       type: com.alibaba.druid.pool.DruidDataSource
-      driver: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://192.168.32.30:3306/manager?useSSL=false
       username: root
       password: Ab*)126722
