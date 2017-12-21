@@ -1,3 +1,5 @@
+server:
+  port: 2008
 custom:
   datasource:
     vpapp:
